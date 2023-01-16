@@ -23,9 +23,9 @@ class SignInActivity : AppCompatActivity() {
             var correctName = signInActivityModel.checkName(nameEditText.text.toString())
             var correctPassword = signInActivityModel.checkPassword(passwordEditText.text.toString())
             if(!correctName)
-                Toast.makeText(applicationContext,"Wrong Name!!",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,R.string.wrong_name,Toast.LENGTH_SHORT).show()
             if(!correctPassword)
-                Toast.makeText(applicationContext,"Wrong Password!!",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,R.string.wrong_password,Toast.LENGTH_SHORT).show()
             if (correctName && correctPassword){
                 val intent = Intent(applicationContext,HomeActivity::class.java)
                 intent.putExtra("name",nameEditText.text.toString())

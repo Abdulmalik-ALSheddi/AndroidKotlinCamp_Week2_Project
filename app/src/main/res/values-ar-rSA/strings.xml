@@ -7,4 +7,6 @@
     <string name="signIn">تسجيل الدخول</string>
     <string name="home">الصفحة الرئيسية</string>
     <string name="welcome">مرحبا..</string>
+    <string name="wrong_name">اسم خاطئ!!</string>
+    <string name="wrong_password">كلمة مرور خاطئة!!</string>
 </resources>
