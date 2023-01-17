@@ -17,7 +17,7 @@ class SplashActivity : AppCompatActivity() {
         root.setOnLongClickListener {
             Toast.makeText(applicationContext,"HIIIII", Toast.LENGTH_SHORT).show()
             startActivity(Intent(applicationContext , SignInActivity::class.java))
-            true
+            false
         }
     }
 }
